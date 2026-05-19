@@ -1,5 +1,19 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## 📋 O que é este site?
+
+**BJ Gestor de Currículos** é um sistema moderno e funcional de **gestão de currículos** projetado para recrutadores e profissionais de RH. 
+
+### Principais funcionalidades:
+
+- 📝 **Cadastrar currículos** - Criar novos currículos com formulários dinâmicos
+- 🔍 **Buscar e filtrar** - Pesquisar currículos em tempo real por nome ou cargo
+- 📊 **Listar** - Visualizar todos os currículos cadastrados de forma organizada
+- 💾 **Armazenamento local** - Dados salvos localmente no navegador
+- 🎨 **Interface moderna** - Design elegante, responsivo e acessível
+
+Este é o lugar perfeito para gerenciar candidatos de forma rápida e prática!
+
 ## Getting Started
 
 First, run the development server:
@@ -19,6 +33,72 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## 🏗️ Como este site foi construído
+
+Este projeto é um **sistema de gestão de currículos** moderno construído com as seguintes tecnologias e práticas:
+
+### Tecnologias Utilizadas
+
+| Ferramenta | Função |
+|-----------|--------|
+| **Next.js 16** | Framework React para criar o site com renderização eficiente |
+| **Tailwind CSS** | Framework CSS para estilização e responsividade (design bonito e funcional) |
+| **React 19** | Biblioteca para componentes reutilizáveis (Header, Cards, Buttons, etc) |
+| **TypeScript** | Linguagem tipada para código mais seguro e confiável |
+| **Yup** | Validação de formulários dinâmicos |
+| **Lucide Icons** | Ícones modernos prontos para usar |
+| **ESLint** | Ferramenta para verificar qualidade do código |
+
+### Fluxo de Desenvolvimento e Deploy
+
+```
+┌────────────────────────────────────────┐
+│ 1. Dev escreve código                  │
+│    (GitHub Copilot sugere com IA 🤖)   │
+└─────────────────┬──────────────────────┘
+                  ↓
+┌────────────────────────────────────────┐
+│ 2. Commit no GitHub                    │
+│    (código salvo na nuvem)             │
+└─────────────────┬──────────────────────┘
+                  ↓
+┌────────────────────────────────────────┐
+│ 3. Vercel detecta mudança              │
+│    (Deploy automático)                 │
+└─────────────────┬──────────────────────┘
+                  ↓
+┌────────────────────────────────────────┐
+│ 4. Site publicado na internet 🌍       │
+└────────────────────────────────────────┘
+```
+
+### Ferramentas Principais
+
+**GitHub** 🐙
+- Repositório na nuvem para o código-fonte
+- Controle de versões (histórico de mudanças)
+- Facilita colaboração entre desenvolvedores
+
+**Vercel** 🚀
+- Hospedagem e deploy automático
+- Pega o código do GitHub e publica na internet
+- Atualiza automaticamente a cada push
+
+**GitHub Copilot** 🤖
+- Assistente de IA integrado ao editor
+- Sugere código enquanto você digita
+- Completa funções automaticamente
+- Ajuda a encontrar erros
+
+### Funcionalidades do Sistema
+
+✅ Listar currículos cadastrados
+✅ Buscar e filtrar em tempo real
+✅ Criar novos currículos com formulários dinâmicos
+✅ Validação automática de dados
+✅ Armazenamento local (localStorage)
+✅ Design responsivo (mobile, tablet, desktop)
 
 ## Learn More
 
